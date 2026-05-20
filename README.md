@@ -1,27 +1,60 @@
 # 🌱 IoT-Based Smart Agriculture Monitoring System
 
 ## 📌 Overview
-This project implements an IoT-based smart agriculture monitoring system using embedded systems and sensors. It monitors soil moisture, temperature, and humidity in real time and helps improve irrigation efficiency.
+This project implements an IoT-based smart agriculture monitoring system using embedded systems and sensor simulation. The system monitors critical environmental parameters such as soil moisture, temperature, and humidity in real-time and supports decision-making for efficient irrigation and farming practices.
+
+The design follows a modular embedded architecture, separating sensor acquisition and control logic to improve scalability and maintainability.
+
+---
 
 ## 🚀 Features
 - Real-time monitoring of environmental conditions
 - Soil moisture, temperature, and humidity detection
-- Sensor-based data acquisition
-- Automated control logic
+- Sensor data simulation using modular architecture
+- Automated irrigation control based on threshold values
+- Structured and scalable system design
+
+---
 
 ## 🛠️ Technologies Used
-- Arduino / ESP32
-- Embedded C / C++
-- Sensors
+- C++ (Embedded-style programming)
+- Modular System Design
+- Sensor Data Simulation
+- Basic Control Algorithms
 
-## ⚙️ How It Works
-1. Sensors collect data from the environment
-2. Microcontroller processes sensor input
-3. System compares values with thresholds
-4. Actions are triggered based on conditions
+---
+
+## ⚙️ System Architecture
+
+The system is designed in a modular architecture:
+
+- **Sensor Module**
+  - Handles environmental data acquisition (simulated)
+  - Provides sensor readings (moisture, temperature, humidity)
+
+- **Controller Module**
+  - Processes incoming sensor data
+  - Applies decision logic (e.g., irrigation ON/OFF)
+
+- **Main Application**
+  - Integrates all modules
+  - Executes system flow and displays output
+
+---
+
+## 🔄 How It Works
+
+1. Sensors generate environmental data (simulated values)
+2. Data is passed to the controller module
+3. Controller compares values with predefined thresholds
+4. System triggers actions (e.g., irrigation control)
+5. Output is displayed for monitoring and validation
+
+---
 
 ## 📚 What I Learned
-- IoT system development
-- Sensor interfacing
-- Embedded programming
-- Real-time system behavior
+- Embedded system design principles
+- Modular programming and code organization
+- Sensor data acquisition and simulation
+- Control logic implementation
+- System-level thinking in IoT applications
