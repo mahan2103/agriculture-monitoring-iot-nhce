@@ -97,3 +97,9 @@ Humidity: 60%
 - Simulation-based design for testing without physical hardware
 - Scalable structure for future integration with real IoT devices
 - Threshold-based decision system for automated control
+
+
+
+
+
+                                     
