@@ -16,6 +16,3 @@ void Controller::processData(float soilMoisture, float temperature, float humidi
 }
 
      
-
-
-
