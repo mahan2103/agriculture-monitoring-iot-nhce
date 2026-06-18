@@ -14,5 +14,3 @@ void Controller::processData(float soilMoisture, float temperature, float humidi
         cout << "[ACTION] Irrigation OFF\n";
     }
 }
-
-     
