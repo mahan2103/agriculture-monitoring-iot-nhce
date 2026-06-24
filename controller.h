@@ -7,7 +7,3 @@ public:
 };
 
 #endif
-                                                            
-                                                    
-                                                                                                                                                    
-                                                                                                                                                                                                                
